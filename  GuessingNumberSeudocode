@@ -1,0 +1,19 @@
+ 
+declare secretNumber variable
+
+declare guessNumber that holds the users guess
+
+Create Random class object to generate random numbers from 1 to 10.
+
+ Generate random numbers ranging from 1 to 10(secretNumber=1 + rand.nextInt(10))
+
+ Prompt the user to enter the guess number
+
+get the guess number
+
+while the guesNumber != secretNumber loop through
+  if guessNumber > secretNumber
+       tell user it is too high.
+ else 
+   tell the user it is too low.
+when guessNumber == secretNumber , tell the user he the secret number is found. 
